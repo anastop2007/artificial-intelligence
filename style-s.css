@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.book img{
+    height: 500px;
+    width: 75%;
+    margin-top: 100px;
+    border-radius: 4%;
+    border: 2px solid white;
+    transition: 0.8s;
+}
+
+.book{
+   margin-left: 90px;
+}
+
+.book img:hover{
+    transform: scale(1.1)
+}
+
+body{
+    background: rgb(128, 128, 128);
+}
+
+/* small Mobil*/
+
+@media (min-width:297px){
+    .book img{
+        height: 350px;
+        width: 90%;
+    }
+}
+
+.ss h1{
+    color:rgb(0, 132, 255);
+    margin-left: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    margin-top: 100px;
+}
+
+.post{
+    margin-top: 100px;
+}
+
+.post p{
+    color:white;
+    font-size:15px ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 15px;
+    margin-left: 50px;
+}
+
+
+/* small Mobil*/
+
+@media (max-width:400px){
+    .ss h1{
+        font-size: 30px;
+    }
+
+}
+
+
